@@ -11,7 +11,7 @@
 #define TWOBLUECUBES_CATCH_BENCHMARK_HPP_INCLUDED
 
 #include <catch2/catch_config.hpp>
-#include <catch2/catch_context.h>
+#include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_interfaces_reporter.h>
 #include <catch2/catch_test_registry.h>
 

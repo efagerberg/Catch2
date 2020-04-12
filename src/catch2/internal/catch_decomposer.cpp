@@ -6,7 +6,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_decomposer.h>
+#include <catch2/internal/catch_decomposer.hpp>
 #include <catch2/catch_config.hpp>
 
 namespace Catch {

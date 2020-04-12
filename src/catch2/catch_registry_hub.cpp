@@ -8,7 +8,7 @@
 
 #include <catch2/catch_interfaces_registry_hub.h>
 
-#include <catch2/catch_context.h>
+#include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_test_case_registry_impl.h>
 #include <catch2/catch_reporter_registry.h>
 #include <catch2/catch_exception_translator_registry.h>

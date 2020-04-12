@@ -18,9 +18,9 @@
 #include <catch2/internal/catch_errno_guard.hpp>
 #include <catch2/catch_interfaces_config.h>
 #include <catch2/catch_stream.h>
-#include <catch2/catch_context.h>
+#include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_platform.hpp>
-#include <catch2/catch_debugger.h>
+#include <catch2/internal/catch_debugger.hpp>
 #include <catch2/internal/catch_windows_h_proxy.hpp>
 
 #include <sstream>

@@ -7,7 +7,7 @@
  */
 
 #include <catch2/internal/catch_common.hpp>
-#include <catch2/catch_context.h>
+#include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_interfaces_config.h>
 
 #include <cstring>

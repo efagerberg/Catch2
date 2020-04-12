@@ -12,7 +12,7 @@
 #include <catch2/catch_interfaces_reporter.h>
 #include <catch2/catch_interfaces_testcase.h>
 
-#include <catch2/catch_context.h>
+#include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_stream.h>
 
 #include <catch2/catch_console_colour.h>

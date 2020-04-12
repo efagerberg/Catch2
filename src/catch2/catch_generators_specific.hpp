@@ -7,7 +7,7 @@
 #ifndef TWOBLUECUBES_CATCH_GENERATORS_SPECIFIC_HPP_INCLUDED
 #define TWOBLUECUBES_CATCH_GENERATORS_SPECIFIC_HPP_INCLUDED
 
-#include <catch2/catch_context.h>
+#include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_generators.hpp>
 #include <catch2/catch_interfaces_config.h>
 #include <catch2/catch_random_number_generator.h>

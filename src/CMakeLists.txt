@@ -46,10 +46,10 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/internal/catch_compiler_capabilities.hpp
     ${SOURCES_DIR}/catch_config.hpp
     ${SOURCES_DIR}/catch_console_colour.h
-    ${SOURCES_DIR}/catch_context.h
+    ${SOURCES_DIR}/internal/catch_context.hpp
     ${SOURCES_DIR}/catch_debug_console.h
-    ${SOURCES_DIR}/catch_debugger.h
-    ${SOURCES_DIR}/catch_decomposer.h
+    ${SOURCES_DIR}/internal/catch_debugger.hpp
+    ${SOURCES_DIR}/internal/catch_decomposer.hpp
     ${SOURCES_DIR}/internal/catch_default_main.hpp
     ${SOURCES_DIR}/catch_enforce.h
     ${SOURCES_DIR}/catch_enum_values_registry.h
@@ -134,10 +134,10 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/internal/catch_common.cpp
     ${SOURCES_DIR}/catch_config.cpp
     ${SOURCES_DIR}/catch_console_colour.cpp
-    ${SOURCES_DIR}/catch_context.cpp
+    ${SOURCES_DIR}/internal/catch_context.cpp
     ${SOURCES_DIR}/catch_debug_console.cpp
-    ${SOURCES_DIR}/catch_debugger.cpp
-    ${SOURCES_DIR}/catch_decomposer.cpp
+    ${SOURCES_DIR}/internal/catch_debugger.cpp
+    ${SOURCES_DIR}/internal/catch_decomposer.cpp
     ${SOURCES_DIR}/catch_enforce.cpp
     ${SOURCES_DIR}/catch_enum_values_registry.cpp
     ${SOURCES_DIR}/internal/catch_errno_guard.cpp
