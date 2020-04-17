@@ -7,7 +7,7 @@
  *
  */
 
-#include <catch2/catch_fatal_condition.h>
+#include <catch2/internal/catch_fatal_condition.hpp>
 
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_interfaces_capture.h>

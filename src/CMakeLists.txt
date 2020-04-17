@@ -47,7 +47,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_config.hpp
     ${SOURCES_DIR}/catch_console_colour.h
     ${SOURCES_DIR}/internal/catch_context.hpp
-    ${SOURCES_DIR}/catch_debug_console.h
+    ${SOURCES_DIR}/internal/catch_debug_console.hpp
     ${SOURCES_DIR}/internal/catch_debugger.hpp
     ${SOURCES_DIR}/internal/catch_decomposer.hpp
     ${SOURCES_DIR}/internal/catch_default_main.hpp
@@ -55,7 +55,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_enum_values_registry.h
     ${SOURCES_DIR}/internal/catch_errno_guard.hpp
     ${SOURCES_DIR}/catch_exception_translator_registry.h
-    ${SOURCES_DIR}/catch_fatal_condition.h
+    ${SOURCES_DIR}/internal/catch_fatal_condition.hpp
     ${SOURCES_DIR}/catch_generator_exception.hpp
     ${SOURCES_DIR}/catch_generators.hpp
     ${SOURCES_DIR}/catch_generators_generic.hpp
@@ -121,7 +121,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_user_interfaces.h
     ${SOURCES_DIR}/catch_version.h
     ${SOURCES_DIR}/catch_version_macros.hpp
-    ${SOURCES_DIR}/catch_wildcard_pattern.h
+    ${SOURCES_DIR}/internal/catch_wildcard_pattern.hpp
     ${SOURCES_DIR}/internal/catch_windows_h_proxy.hpp
     ${SOURCES_DIR}/internal/catch_xmlwriter.hpp
 )
@@ -135,14 +135,14 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_config.cpp
     ${SOURCES_DIR}/catch_console_colour.cpp
     ${SOURCES_DIR}/internal/catch_context.cpp
-    ${SOURCES_DIR}/catch_debug_console.cpp
+    ${SOURCES_DIR}/internal/catch_debug_console.cpp
     ${SOURCES_DIR}/internal/catch_debugger.cpp
     ${SOURCES_DIR}/internal/catch_decomposer.cpp
     ${SOURCES_DIR}/catch_enforce.cpp
     ${SOURCES_DIR}/catch_enum_values_registry.cpp
     ${SOURCES_DIR}/internal/catch_errno_guard.cpp
     ${SOURCES_DIR}/catch_exception_translator_registry.cpp
-    ${SOURCES_DIR}/catch_fatal_condition.cpp
+    ${SOURCES_DIR}/internal/catch_fatal_condition.cpp
     ${SOURCES_DIR}/catch_generator_exception.cpp
     ${SOURCES_DIR}/catch_generators.cpp
     ${SOURCES_DIR}/catch_interfaces_capture.cpp
@@ -191,7 +191,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_totals.cpp
     ${SOURCES_DIR}/internal/catch_uncaught_exceptions.cpp
     ${SOURCES_DIR}/catch_version.cpp
-    ${SOURCES_DIR}/catch_wildcard_pattern.cpp
+    ${SOURCES_DIR}/internal/catch_wildcard_pattern.cpp
     ${SOURCES_DIR}/internal/catch_xmlwriter.cpp
 )
 set(INTERNAL_FILES ${IMPL_SOURCES} ${INTERNAL_HEADERS})

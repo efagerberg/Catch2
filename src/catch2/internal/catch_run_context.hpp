@@ -21,7 +21,6 @@
 #include <catch2/catch_test_case_tracker.h>
 #include <catch2/catch_timer.h>
 #include <catch2/internal/catch_assertionhandler.hpp>
-#include <catch2/catch_fatal_condition.h>
 
 #include <string>
 

@@ -1,7 +1,8 @@
-#include <catch2/catch_run_context.h>
+#include <catch2/internal/catch_run_context.hpp>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_enforce.h>
+#include <catch2/internal/catch_fatal_condition.hpp>
 #include <catch2/catch_random_number_generator.h>
 #include <catch2/catch_stream.h>
 #include <catch2/internal/catch_output_redirect.hpp>

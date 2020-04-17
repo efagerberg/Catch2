@@ -13,7 +13,7 @@
 #pragma clang diagnostic ignored "-Wpadded"
 #endif
 
-#include <catch2/catch_wildcard_pattern.h>
+#include <catch2/internal/catch_wildcard_pattern.hpp>
 #include <catch2/catch_test_case_info.h>
 
 #include <string>
