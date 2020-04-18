@@ -10,7 +10,7 @@
 
 #include <catch2/internal/catch_common.hpp>
 #include <catch2/catch_stringref.h>
-#include <catch2/catch_test_registry.h>
+#include <catch2/internal/catch_test_registry.hpp>
 
 #include <string>
 #include <vector>

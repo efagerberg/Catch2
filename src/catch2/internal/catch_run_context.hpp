@@ -13,12 +13,12 @@
 #include <catch2/catch_interfaces_reporter.h>
 #include <catch2/catch_interfaces_exception.h>
 #include <catch2/catch_config.hpp>
-#include <catch2/catch_test_registry.h>
+#include <catch2/internal/catch_test_registry.hpp>
 #include <catch2/catch_test_case_info.h>
 #include <catch2/internal/catch_capture.hpp>
 #include <catch2/catch_totals.hpp>
 #include <catch2/catch_test_spec.hpp>
-#include <catch2/catch_test_case_tracker.h>
+#include <catch2/internal/catch_test_case_tracker.hpp>
 #include <catch2/internal/catch_assertionhandler.hpp>
 
 #include <string>

@@ -5,7 +5,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_test_registry.h>
+#include <catch2/internal/catch_test_registry.hpp>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_test_case_info.h>
 #include <catch2/catch_test_case_registry_impl.h>
