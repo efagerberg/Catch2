@@ -5,9 +5,9 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_generators.hpp>
+#include <catch2/generators/catch_generators.hpp>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_generator_exception.hpp>
+#include <catch2/generators/catch_generator_exception.hpp>
 #include <catch2/catch_interfaces_capture.h>
 
 #include <limits>

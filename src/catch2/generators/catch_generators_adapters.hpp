@@ -7,7 +7,7 @@
 #ifndef TWOBLUECUBES_CATCH_GENERATORS_GENERIC_HPP_INCLUDED
 #define TWOBLUECUBES_CATCH_GENERATORS_GENERIC_HPP_INCLUDED
 
-#include <catch2/catch_generators.hpp>
+#include <catch2/generators/catch_generators.hpp>
 #include <catch2/internal/catch_meta.hpp>
 
 namespace Catch {

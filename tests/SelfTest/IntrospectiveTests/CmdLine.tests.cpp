@@ -10,7 +10,7 @@
 #include <catch2/catch_test_case_info.h>
 #include <catch2/catch_config.hpp>
 #include <catch2/internal/catch_commandline.hpp>
-#include <catch2/catch_generators.hpp>
+#include <catch2/generators/catch_generators.hpp>
 
 #ifdef __clang__
 #   pragma clang diagnostic ignored "-Wc++98-compat"

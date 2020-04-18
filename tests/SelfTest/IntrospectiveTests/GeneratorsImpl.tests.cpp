@@ -1,8 +1,8 @@
 #include <catch2/catch_approx.hpp>
 #include <catch2/catch_test_macros.hpp>
-#include <catch2/catch_generator_exception.hpp>
-#include <catch2/catch_generators_generic.hpp>
-#include <catch2/catch_generators_specific.hpp>
+#include <catch2/generators/catch_generator_exception.hpp>
+#include <catch2/generators/catch_generators_adapters.hpp>
+#include <catch2/generators/catch_generators_specific.hpp>
 
 // Tests of generator implementation details
 TEST_CASE("Generators internals", "[generators][internals]") {
