@@ -118,7 +118,6 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_tostring.h
     ${SOURCES_DIR}/catch_totals.h
     ${SOURCES_DIR}/internal/catch_uncaught_exceptions.hpp
-    ${SOURCES_DIR}/catch_user_interfaces.h
     ${SOURCES_DIR}/catch_version.hpp
     ${SOURCES_DIR}/catch_version_macros.hpp
     ${SOURCES_DIR}/internal/catch_wildcard_pattern.hpp
