@@ -99,7 +99,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_session.h
     ${SOURCES_DIR}/internal/catch_singletons.hpp
     ${SOURCES_DIR}/internal/catch_startup_exception_registry.hpp
-    ${SOURCES_DIR}/catch_stream.h
+    ${SOURCES_DIR}/internal/catch_stream.hpp
     ${SOURCES_DIR}/catch_stringref.h
     ${SOURCES_DIR}/internal/catch_string_manip.hpp
     ${SOURCES_DIR}/catch_tag_alias.h
@@ -110,13 +110,13 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_test_case_tracker.h
     ${SOURCES_DIR}/catch_test_macros.hpp
     ${SOURCES_DIR}/catch_test_registry.h
-    ${SOURCES_DIR}/catch_test_spec.h
+    ${SOURCES_DIR}/catch_test_spec.hpp
     ${SOURCES_DIR}/internal/catch_test_spec_parser.hpp
     ${SOURCES_DIR}/internal/catch_text.hpp
-    ${SOURCES_DIR}/catch_timer.h
+    ${SOURCES_DIR}/catch_timer.hpp
     ${SOURCES_DIR}/internal/catch_to_string.hpp
-    ${SOURCES_DIR}/catch_tostring.h
-    ${SOURCES_DIR}/catch_totals.h
+    ${SOURCES_DIR}/catch_tostring.hpp
+    ${SOURCES_DIR}/catch_totals.hpp
     ${SOURCES_DIR}/internal/catch_uncaught_exceptions.hpp
     ${SOURCES_DIR}/catch_version.hpp
     ${SOURCES_DIR}/catch_version_macros.hpp
@@ -173,7 +173,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_session.cpp
     ${SOURCES_DIR}/internal/catch_singletons.cpp
     ${SOURCES_DIR}/internal/catch_startup_exception_registry.cpp
-    ${SOURCES_DIR}/catch_stream.cpp
+    ${SOURCES_DIR}/internal/catch_stream.cpp
     ${SOURCES_DIR}/internal/catch_stringref.cpp
     ${SOURCES_DIR}/internal/catch_string_manip.cpp
     ${SOURCES_DIR}/catch_tag_alias.cpp

@@ -16,10 +16,9 @@
 #include <catch2/catch_test_registry.h>
 #include <catch2/catch_test_case_info.h>
 #include <catch2/internal/catch_capture.hpp>
-#include <catch2/catch_totals.h>
-#include <catch2/catch_test_spec.h>
+#include <catch2/catch_totals.hpp>
+#include <catch2/catch_test_spec.hpp>
 #include <catch2/catch_test_case_tracker.h>
-#include <catch2/catch_timer.h>
 #include <catch2/internal/catch_assertionhandler.hpp>
 
 #include <string>

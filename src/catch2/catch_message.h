@@ -10,9 +10,9 @@
 
 #include <catch2/catch_result_type.h>
 #include <catch2/internal/catch_common.hpp>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/catch_interfaces_capture.h>
-#include <catch2/catch_tostring.h>
+#include <catch2/catch_tostring.hpp>
 
 #include <string>
 #include <vector>

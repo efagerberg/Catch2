@@ -8,7 +8,7 @@
 
 #include <catch2/catch_test_case_info.h>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_test_spec.h>
+#include <catch2/catch_test_spec.hpp>
 #include <catch2/catch_interfaces_testcase.h>
 #include <catch2/internal/catch_string_manip.hpp>
 

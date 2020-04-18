@@ -9,7 +9,7 @@
 
 #include <catch2/internal/catch_debugger.hpp>
 #include <catch2/internal/catch_errno_guard.hpp>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/internal/catch_platform.hpp>
 
 #if defined(CATCH_PLATFORM_MAC) || defined(CATCH_PLATFORM_IPHONE)

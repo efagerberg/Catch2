@@ -7,7 +7,7 @@
 
 #include <catch2/catch_config.hpp>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/catch_stringref.h>
 #include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/internal/catch_test_spec_parser.hpp>

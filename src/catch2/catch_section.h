@@ -10,8 +10,8 @@
 
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_section_info.h>
-#include <catch2/catch_totals.h>
-#include <catch2/catch_timer.h>
+#include <catch2/catch_timer.hpp>
+#include <catch2/catch_totals.hpp>
 
 #include <string>
 

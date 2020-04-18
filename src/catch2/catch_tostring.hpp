@@ -14,7 +14,7 @@
 #include <type_traits>
 #include <string>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/catch_interfaces_enum_values_registry.h>
 
 #ifdef CATCH_CONFIG_CPP17_STRING_VIEW

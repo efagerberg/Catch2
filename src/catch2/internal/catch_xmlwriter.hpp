@@ -8,7 +8,7 @@
 #ifndef TWOBLUECUBES_CATCH_XMLWRITER_HPP_INCLUDED
 #define TWOBLUECUBES_CATCH_XMLWRITER_HPP_INCLUDED
 
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 
 #include <vector>

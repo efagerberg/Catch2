@@ -8,7 +8,7 @@
 
 #include <catch2/internal/catch_debug_console.hpp>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/internal/catch_platform.hpp>
 #include <catch2/internal/catch_windows_h_proxy.hpp>
 

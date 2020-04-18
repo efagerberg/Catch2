@@ -17,7 +17,7 @@
 #include <catch2/catch_enforce.h>
 #include <catch2/internal/catch_errno_guard.hpp>
 #include <catch2/catch_interfaces_config.h>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_platform.hpp>
 #include <catch2/internal/catch_debugger.hpp>

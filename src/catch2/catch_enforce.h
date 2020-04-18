@@ -9,7 +9,7 @@
 
 #include <catch2/internal/catch_common.hpp>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 
 #include <exception>
 

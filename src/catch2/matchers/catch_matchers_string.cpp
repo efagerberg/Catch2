@@ -5,7 +5,7 @@
 
 #include <catch2/matchers/catch_matchers_string.hpp>
 #include <catch2/internal/catch_string_manip.hpp>
-#include <catch2/catch_tostring.h>
+#include <catch2/catch_tostring.hpp>
 
 #include <regex>
 

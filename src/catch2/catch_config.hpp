@@ -8,7 +8,7 @@
 #ifndef TWOBLUECUBES_CATCH_CONFIG_HPP_INCLUDED
 #define TWOBLUECUBES_CATCH_CONFIG_HPP_INCLUDED
 
-#include <catch2/catch_test_spec.h>
+#include <catch2/catch_test_spec.hpp>
 #include <catch2/catch_interfaces_config.h>
 
 #include <memory>

@@ -7,7 +7,7 @@
  */
 #include <catch2/catch_enum_values_registry.h>
 #include <catch2/internal/catch_string_manip.hpp>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 
 #include <map>
 #include <cassert>

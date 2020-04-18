@@ -9,7 +9,7 @@
 
 #include <catch2/internal/catch_common.hpp>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_stream.h>
+#include <catch2/internal/catch_stream.hpp>
 #include <catch2/internal/catch_debug_console.hpp>
 #include <catch2/catch_stringref.h>
 #include <catch2/internal/catch_singletons.hpp>

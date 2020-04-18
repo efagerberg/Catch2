@@ -10,7 +10,7 @@
 
 #include <catch2/reporters/catch_reporter_junit.hpp>
 
-#include <catch2/catch_tostring.h>
+#include <catch2/catch_tostring.hpp>
 #include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/catch_reporter_registrars.hpp>
 #include <catch2/internal/catch_text.hpp>

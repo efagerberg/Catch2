@@ -13,7 +13,7 @@
 #endif
 
 
-#include <catch2/catch_tostring.h>
+#include <catch2/catch_tostring.hpp>
 #include <catch2/catch_interfaces_config.h>
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_polyfills.hpp>

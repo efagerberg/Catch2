@@ -9,7 +9,6 @@
 #define TWOBLUECUBES_CATCH_TEST_CASE_REGISTRY_IMPL_HPP_INCLUDED
 
 #include <catch2/catch_test_registry.h>
-#include <catch2/catch_test_spec.h>
 #include <catch2/catch_interfaces_config.h>
 
 #include <vector>
@@ -20,6 +19,7 @@ namespace Catch {
 
     class TestCaseHandle;
     struct IConfig;
+    class TestSpec;
 
     std::vector<TestCaseHandle> sortTests( IConfig const& config, std::vector<TestCaseHandle> const& unsortedTestCases );
 
