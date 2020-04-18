@@ -6,7 +6,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_exception_translator_registry.h>
+#include <catch2/internal/catch_exception_translator_registry.hpp>
 #include <catch2/internal/catch_assertionhandler.hpp>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_enforce.h>

@@ -54,7 +54,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_enforce.h
     ${SOURCES_DIR}/catch_enum_values_registry.h
     ${SOURCES_DIR}/internal/catch_errno_guard.hpp
-    ${SOURCES_DIR}/catch_exception_translator_registry.h
+    ${SOURCES_DIR}/internal/catch_exception_translator_registry.hpp
     ${SOURCES_DIR}/internal/catch_fatal_condition.hpp
     ${SOURCES_DIR}/generators/catch_generator_exception.hpp
     ${SOURCES_DIR}/generators/catch_generators.hpp
@@ -97,7 +97,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_section.h
     ${SOURCES_DIR}/catch_section_info.h
     ${SOURCES_DIR}/catch_session.h
-    ${SOURCES_DIR}/catch_singletons.hpp
+    ${SOURCES_DIR}/internal/catch_singletons.hpp
     ${SOURCES_DIR}/internal/catch_startup_exception_registry.hpp
     ${SOURCES_DIR}/catch_stream.h
     ${SOURCES_DIR}/catch_stringref.h
@@ -119,7 +119,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_totals.h
     ${SOURCES_DIR}/internal/catch_uncaught_exceptions.hpp
     ${SOURCES_DIR}/catch_user_interfaces.h
-    ${SOURCES_DIR}/catch_version.h
+    ${SOURCES_DIR}/catch_version.hpp
     ${SOURCES_DIR}/catch_version_macros.hpp
     ${SOURCES_DIR}/internal/catch_wildcard_pattern.hpp
     ${SOURCES_DIR}/internal/catch_windows_h_proxy.hpp
@@ -141,7 +141,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_enforce.cpp
     ${SOURCES_DIR}/catch_enum_values_registry.cpp
     ${SOURCES_DIR}/internal/catch_errno_guard.cpp
-    ${SOURCES_DIR}/catch_exception_translator_registry.cpp
+    ${SOURCES_DIR}/internal/catch_exception_translator_registry.cpp
     ${SOURCES_DIR}/internal/catch_fatal_condition.cpp
     ${SOURCES_DIR}/generators/catch_generator_exception.cpp
     ${SOURCES_DIR}/generators/catch_generators.cpp
@@ -172,7 +172,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/internal/catch_run_context.cpp
     ${SOURCES_DIR}/catch_section.cpp
     ${SOURCES_DIR}/catch_session.cpp
-    ${SOURCES_DIR}/catch_singletons.cpp
+    ${SOURCES_DIR}/internal/catch_singletons.cpp
     ${SOURCES_DIR}/internal/catch_startup_exception_registry.cpp
     ${SOURCES_DIR}/catch_stream.cpp
     ${SOURCES_DIR}/internal/catch_stringref.cpp

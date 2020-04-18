@@ -12,7 +12,7 @@
 #include <catch2/catch_stream.h>
 #include <catch2/internal/catch_debug_console.hpp>
 #include <catch2/catch_stringref.h>
-#include <catch2/catch_singletons.hpp>
+#include <catch2/internal/catch_singletons.hpp>
 
 #include <cstdio>
 #include <iostream>

@@ -13,7 +13,7 @@
 #include <catch2/internal/catch_run_context.hpp>
 #include <catch2/catch_stream.h>
 #include <catch2/catch_test_spec.h>
-#include <catch2/catch_version.h>
+#include <catch2/catch_version.hpp>
 #include <catch2/catch_interfaces_reporter.h>
 #include <catch2/catch_random_number_generator.h>
 #include <catch2/internal/catch_startup_exception_registry.hpp>
