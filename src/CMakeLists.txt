@@ -94,19 +94,19 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_reporter_registry.h
     ${SOURCES_DIR}/catch_result_type.h
     ${SOURCES_DIR}/internal/catch_run_context.hpp
-    ${SOURCES_DIR}/catch_section.h
-    ${SOURCES_DIR}/catch_section_info.h
-    ${SOURCES_DIR}/catch_session.h
+    ${SOURCES_DIR}/internal/catch_section.hpp
+    ${SOURCES_DIR}/catch_section_info.hpp
+    ${SOURCES_DIR}/catch_session.hpp
     ${SOURCES_DIR}/internal/catch_singletons.hpp
     ${SOURCES_DIR}/internal/catch_startup_exception_registry.hpp
     ${SOURCES_DIR}/internal/catch_stream.hpp
-    ${SOURCES_DIR}/catch_stringref.h
+    ${SOURCES_DIR}/catch_stringref.hpp
     ${SOURCES_DIR}/internal/catch_string_manip.hpp
-    ${SOURCES_DIR}/catch_tag_alias.h
-    ${SOURCES_DIR}/catch_tag_alias_autoregistrar.h
-    ${SOURCES_DIR}/catch_tag_alias_registry.h
-    ${SOURCES_DIR}/catch_test_case_info.h
-    ${SOURCES_DIR}/catch_test_case_registry_impl.h
+    ${SOURCES_DIR}/catch_tag_alias.hpp
+    ${SOURCES_DIR}/catch_tag_alias_autoregistrar.hpp
+    ${SOURCES_DIR}/internal/catch_tag_alias_registry.hpp
+    ${SOURCES_DIR}/catch_test_case_info.hpp
+    ${SOURCES_DIR}/internal/catch_test_case_registry_impl.hpp
     ${SOURCES_DIR}/internal/catch_test_case_tracker.hpp
     ${SOURCES_DIR}/catch_test_macros.hpp
     ${SOURCES_DIR}/internal/catch_test_registry.hpp
@@ -169,7 +169,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_reporter_registry.cpp
     ${SOURCES_DIR}/catch_result_type.cpp
     ${SOURCES_DIR}/internal/catch_run_context.cpp
-    ${SOURCES_DIR}/catch_section.cpp
+    ${SOURCES_DIR}/internal/catch_section.cpp
     ${SOURCES_DIR}/catch_session.cpp
     ${SOURCES_DIR}/internal/catch_singletons.cpp
     ${SOURCES_DIR}/internal/catch_startup_exception_registry.cpp
@@ -178,9 +178,9 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/internal/catch_string_manip.cpp
     ${SOURCES_DIR}/catch_tag_alias.cpp
     ${SOURCES_DIR}/catch_tag_alias_autoregistrar.cpp
-    ${SOURCES_DIR}/catch_tag_alias_registry.cpp
+    ${SOURCES_DIR}/internal/catch_tag_alias_registry.cpp
     ${SOURCES_DIR}/catch_test_case_info.cpp
-    ${SOURCES_DIR}/catch_test_case_registry_impl.cpp
+    ${SOURCES_DIR}/internal/catch_test_case_registry_impl.cpp
     ${SOURCES_DIR}/internal/catch_test_case_tracker.cpp
     ${SOURCES_DIR}/internal/catch_test_registry.cpp
     ${SOURCES_DIR}/catch_test_spec.cpp

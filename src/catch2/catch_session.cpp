@@ -5,7 +5,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_session.h>
+#include <catch2/catch_session.hpp>
 #include <catch2/catch_console_colour.h>
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_list.h>

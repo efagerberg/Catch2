@@ -5,7 +5,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_test_case_registry_impl.h>
+#include <catch2/internal/catch_test_case_registry_impl.hpp>
 
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_enforce.h>
@@ -13,7 +13,7 @@
 #include <catch2/catch_random_number_generator.h>
 #include <catch2/internal/catch_run_context.hpp>
 #include <catch2/internal/catch_string_manip.hpp>
-#include <catch2/catch_test_case_info.h>
+#include <catch2/catch_test_case_info.hpp>
 #include <catch2/catch_test_spec.hpp>
 
 #include <sstream>

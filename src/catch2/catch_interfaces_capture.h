@@ -11,7 +11,7 @@
 #include <string>
 #include <chrono>
 
-#include <catch2/catch_stringref.h>
+#include <catch2/catch_stringref.hpp>
 #include <catch2/catch_result_type.h>
 
 namespace Catch {

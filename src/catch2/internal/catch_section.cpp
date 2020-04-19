@@ -6,7 +6,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_section.h>
+#include <catch2/internal/catch_section.hpp>
 #include <catch2/internal/catch_capture.hpp>
 #include <catch2/internal/catch_uncaught_exceptions.hpp>
 

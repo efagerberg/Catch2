@@ -9,7 +9,7 @@
 #include <catch2/internal/catch_capture.hpp>
 #include <catch2/catch_interfaces_exception.h>
 #include <catch2/internal/catch_preprocessor.hpp>
-#include <catch2/catch_section.h>
+#include <catch2/internal/catch_section.hpp>
 #include <catch2/internal/catch_test_registry.hpp>
 
 #if !defined(CATCH_CONFIG_DISABLE)

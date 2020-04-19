@@ -9,10 +9,10 @@
 #include <catch2/catch_interfaces_registry_hub.h>
 
 #include <catch2/internal/catch_context.hpp>
-#include <catch2/catch_test_case_registry_impl.h>
+#include <catch2/internal/catch_test_case_registry_impl.hpp>
 #include <catch2/catch_reporter_registry.h>
 #include <catch2/internal/catch_exception_translator_registry.hpp>
-#include <catch2/catch_tag_alias_registry.h>
+#include <catch2/internal/catch_tag_alias_registry.hpp>
 #include <catch2/internal/catch_startup_exception_registry.hpp>
 #include <catch2/internal/catch_singletons.hpp>
 #include <catch2/catch_enum_values_registry.h>

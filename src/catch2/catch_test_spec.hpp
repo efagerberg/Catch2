@@ -14,7 +14,6 @@
 #endif
 
 #include <catch2/internal/catch_wildcard_pattern.hpp>
-#include <catch2/catch_test_case_info.h>
 
 #include <string>
 #include <vector>
@@ -23,6 +22,8 @@
 namespace Catch {
 
     struct IConfig;
+    struct TestCaseInfo;
+    class TestCaseHandle;
 
     class TestSpec {
 

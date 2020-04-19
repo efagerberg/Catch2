@@ -6,7 +6,7 @@
  */
 
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_stringref.h>
+#include <catch2/catch_stringref.hpp>
 
 #include <algorithm>
 #include <ostream>
