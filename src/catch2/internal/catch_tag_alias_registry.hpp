@@ -8,7 +8,7 @@
 #ifndef TWOBLUECUBES_CATCH_TAG_ALIAS_REGISTRY_H_INCLUDED
 #define TWOBLUECUBES_CATCH_TAG_ALIAS_REGISTRY_H_INCLUDED
 
-#include <catch2/catch_interfaces_tag_alias_registry.h>
+#include <catch2/catch_interfaces_tag_alias_registry.hpp>
 #include <catch2/catch_tag_alias.hpp>
 
 #include <map>

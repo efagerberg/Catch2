@@ -8,12 +8,12 @@
 
 #include <catch2/internal/catch_assertionhandler.hpp>
 #include <catch2/catch_assertionresult.h>
-#include <catch2/catch_interfaces_runner.h>
-#include <catch2/catch_interfaces_config.h>
+#include <catch2/catch_interfaces_runner.hpp>
+#include <catch2/catch_interfaces_config.hpp>
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_enforce.h>
 #include <catch2/internal/catch_debugger.hpp>
-#include <catch2/catch_interfaces_registry_hub.h>
+#include <catch2/catch_interfaces_registry_hub.hpp>
 #include <catch2/internal/catch_capture_matchers.hpp>
 #include <catch2/internal/catch_run_context.hpp>
 #include <catch2/matchers/catch_matchers_string.hpp>

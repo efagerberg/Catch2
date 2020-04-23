@@ -11,7 +11,7 @@
 #include <catch2/internal/catch_result_type.hpp>
 #include <catch2/internal/catch_common.hpp>
 #include <catch2/internal/catch_stream.hpp>
-#include <catch2/catch_interfaces_capture.h>
+#include <catch2/catch_interfaces_capture.hpp>
 #include <catch2/catch_tostring.hpp>
 
 #include <string>

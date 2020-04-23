@@ -9,7 +9,7 @@
 
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_interfaces_registry_hub.h>
+#include <catch2/catch_interfaces_registry_hub.hpp>
 #include <catch2/internal/catch_random_number_generator.hpp>
 #include <catch2/internal/catch_run_context.hpp>
 #include <catch2/internal/catch_string_manip.hpp>

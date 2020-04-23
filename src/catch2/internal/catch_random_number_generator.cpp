@@ -8,7 +8,7 @@
 #include <catch2/internal/catch_random_number_generator.hpp>
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_run_context.hpp>
-#include <catch2/catch_interfaces_config.h>
+#include <catch2/catch_interfaces_config.hpp>
 
 namespace Catch {
 

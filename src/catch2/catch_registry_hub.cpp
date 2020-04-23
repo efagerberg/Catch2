@@ -6,7 +6,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_interfaces_registry_hub.h>
+#include <catch2/catch_interfaces_registry_hub.hpp>
 
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_test_case_registry_impl.hpp>

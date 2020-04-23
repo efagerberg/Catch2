@@ -9,7 +9,7 @@
 #define TWOBLUECUBES_CATCH_CONFIG_HPP_INCLUDED
 
 #include <catch2/catch_test_spec.hpp>
-#include <catch2/catch_interfaces_config.h>
+#include <catch2/catch_interfaces_config.hpp>
 
 #include <memory>
 #include <vector>

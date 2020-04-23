@@ -10,8 +10,8 @@
 
 #include <catch2/internal/catch_string_manip.hpp>
 
-#include <catch2/catch_interfaces_registry_hub.h>
-#include <catch2/catch_interfaces_reporter.h>
+#include <catch2/catch_interfaces_registry_hub.hpp>
+#include <catch2/catch_interfaces_reporter.hpp>
 
 #include <fstream>
 #include <ctime>

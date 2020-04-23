@@ -7,7 +7,7 @@
  */
 
 #include <catch2/catch_message.hpp>
-#include <catch2/catch_interfaces_capture.h>
+#include <catch2/catch_interfaces_capture.hpp>
 #include <catch2/internal/catch_uncaught_exceptions.hpp>
 #include <catch2/catch_enforce.h>
 

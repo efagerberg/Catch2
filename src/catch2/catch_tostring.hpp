@@ -15,7 +15,7 @@
 #include <string>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/internal/catch_stream.hpp>
-#include <catch2/catch_interfaces_enum_values_registry.h>
+#include <catch2/catch_interfaces_enum_values_registry.hpp>
 
 #ifdef CATCH_CONFIG_CPP17_STRING_VIEW
 #include <string_view>
@@ -648,7 +648,7 @@ struct ratio_string<std::milli> {
     };
 }
 
-#include <catch2/catch_interfaces_registry_hub.h>
+#include <catch2/catch_interfaces_registry_hub.hpp>
 
 #define INTERNAL_CATCH_REGISTER_ENUM( enumName, ... ) \
 namespace Catch { \

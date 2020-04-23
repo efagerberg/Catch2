@@ -14,7 +14,7 @@
 #include <catch2/internal/catch_stream.hpp>
 #include <catch2/catch_test_spec.hpp>
 #include <catch2/catch_version.hpp>
-#include <catch2/catch_interfaces_reporter.h>
+#include <catch2/catch_interfaces_reporter.hpp>
 #include <catch2/internal/catch_random_number_generator.hpp>
 #include <catch2/internal/catch_startup_exception_registry.hpp>
 #include <catch2/internal/catch_text.hpp>

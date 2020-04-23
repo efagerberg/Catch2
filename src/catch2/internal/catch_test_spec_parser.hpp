@@ -14,7 +14,7 @@
 #endif
 
 #include <catch2/catch_test_spec.hpp>
-#include <catch2/catch_interfaces_tag_alias_registry.h>
+#include <catch2/catch_interfaces_tag_alias_registry.hpp>
 
 namespace Catch {
 

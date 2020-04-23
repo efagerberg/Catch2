@@ -9,7 +9,7 @@
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_test_case_info.hpp>
 #include <catch2/internal/catch_test_case_registry_impl.hpp>
-#include <catch2/catch_interfaces_registry_hub.h>
+#include <catch2/catch_interfaces_registry_hub.hpp>
 
 namespace Catch {
 

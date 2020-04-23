@@ -10,7 +10,7 @@
 
 #include <catch2/catch_assertioninfo.h>
 #include <catch2/internal/catch_decomposer.hpp>
-#include <catch2/catch_interfaces_capture.h>
+#include <catch2/catch_interfaces_capture.hpp>
 
 namespace Catch {
 

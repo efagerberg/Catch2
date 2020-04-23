@@ -60,15 +60,16 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/generators/catch_generators.hpp
     ${SOURCES_DIR}/generators/catch_generators_adapters.hpp
     ${SOURCES_DIR}/generators/catch_generators_specific.hpp
-    ${SOURCES_DIR}/catch_interfaces_capture.h
-    ${SOURCES_DIR}/catch_interfaces_config.h
-    ${SOURCES_DIR}/catch_interfaces_enum_values_registry.h
-    ${SOURCES_DIR}/catch_interfaces_exception.h
-    ${SOURCES_DIR}/catch_interfaces_registry_hub.h
-    ${SOURCES_DIR}/catch_interfaces_reporter.h
-    ${SOURCES_DIR}/catch_interfaces_runner.h
-    ${SOURCES_DIR}/catch_interfaces_tag_alias_registry.h
-    ${SOURCES_DIR}/catch_interfaces_testcase.h
+    ${SOURCES_DIR}/catch_interfaces_capture.hpp
+    ${SOURCES_DIR}/catch_interfaces_config.hpp
+    ${SOURCES_DIR}/catch_interfaces_enum_values_registry.hpp
+    ${SOURCES_DIR}/catch_interfaces_exception.hpp
+    ${SOURCES_DIR}/catch_interfaces_generatortracker.hpp
+    ${SOURCES_DIR}/catch_interfaces_registry_hub.hpp
+    ${SOURCES_DIR}/catch_interfaces_reporter.hpp
+    ${SOURCES_DIR}/catch_interfaces_runner.hpp
+    ${SOURCES_DIR}/catch_interfaces_tag_alias_registry.hpp
+    ${SOURCES_DIR}/catch_interfaces_testcase.hpp
     ${SOURCES_DIR}/internal/catch_leak_detector.hpp
     ${SOURCES_DIR}/internal/catch_list.hpp
     ${SOURCES_DIR}/matchers/catch_matchers.hpp
@@ -147,7 +148,6 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_interfaces_capture.cpp
     ${SOURCES_DIR}/catch_interfaces_config.cpp
     ${SOURCES_DIR}/catch_interfaces_exception.cpp
-    ${SOURCES_DIR}/catch_interfaces_generatortracker.h
     ${SOURCES_DIR}/catch_interfaces_registry_hub.cpp
     ${SOURCES_DIR}/catch_interfaces_runner.cpp
     ${SOURCES_DIR}/catch_interfaces_testcase.cpp

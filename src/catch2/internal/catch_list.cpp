@@ -8,9 +8,9 @@
 
 #include <catch2/internal/catch_list.hpp>
 
-#include <catch2/catch_interfaces_registry_hub.h>
-#include <catch2/catch_interfaces_reporter.h>
-#include <catch2/catch_interfaces_testcase.h>
+#include <catch2/catch_interfaces_registry_hub.hpp>
+#include <catch2/catch_interfaces_reporter.hpp>
+#include <catch2/catch_interfaces_testcase.hpp>
 
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_stream.hpp>
