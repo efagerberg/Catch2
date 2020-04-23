@@ -8,7 +8,7 @@
 #ifndef TWOBLUECUBES_CATCH_ASSERTIONINFO_H_INCLUDED
 #define TWOBLUECUBES_CATCH_ASSERTIONINFO_H_INCLUDED
 
-#include <catch2/catch_result_type.h>
+#include <catch2/internal/catch_result_type.hpp>
 #include <catch2/internal/catch_common.hpp>
 #include <catch2/catch_stringref.hpp>
 

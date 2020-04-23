@@ -10,7 +10,7 @@
 
 #include <string>
 #include <catch2/catch_assertioninfo.h>
-#include <catch2/catch_result_type.h>
+#include <catch2/internal/catch_result_type.hpp>
 #include <catch2/internal/catch_common.hpp>
 #include <catch2/catch_stringref.hpp>
 #include <catch2/internal/catch_assertionhandler.hpp>

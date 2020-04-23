@@ -91,8 +91,8 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/internal/catch_preprocessor.hpp
     ${SOURCES_DIR}/catch_random_number_generator.h
     ${SOURCES_DIR}/catch_reporter_registrars.hpp
-    ${SOURCES_DIR}/catch_reporter_registry.h
-    ${SOURCES_DIR}/catch_result_type.h
+    ${SOURCES_DIR}/internal/catch_reporter_registry.hpp
+    ${SOURCES_DIR}/internal/catch_result_type.hpp
     ${SOURCES_DIR}/internal/catch_run_context.hpp
     ${SOURCES_DIR}/internal/catch_section.hpp
     ${SOURCES_DIR}/catch_section_info.hpp
@@ -166,8 +166,8 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_interfaces_reporter.cpp
     ${SOURCES_DIR}/internal/catch_polyfills.cpp
     ${SOURCES_DIR}/catch_random_number_generator.cpp
-    ${SOURCES_DIR}/catch_reporter_registry.cpp
-    ${SOURCES_DIR}/catch_result_type.cpp
+    ${SOURCES_DIR}/internal/catch_reporter_registry.cpp
+    ${SOURCES_DIR}/internal/catch_result_type.cpp
     ${SOURCES_DIR}/internal/catch_run_context.cpp
     ${SOURCES_DIR}/internal/catch_section.cpp
     ${SOURCES_DIR}/catch_session.cpp
