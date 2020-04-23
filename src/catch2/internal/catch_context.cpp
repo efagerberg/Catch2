@@ -7,7 +7,7 @@
  */
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_common.hpp>
-#include <catch2/catch_random_number_generator.h>
+#include <catch2/internal/catch_random_number_generator.hpp>
 
 namespace Catch {
 

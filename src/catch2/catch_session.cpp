@@ -8,14 +8,14 @@
 #include <catch2/catch_session.hpp>
 #include <catch2/catch_console_colour.h>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_list.h>
+#include <catch2/internal/catch_list.hpp>
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/internal/catch_run_context.hpp>
 #include <catch2/internal/catch_stream.hpp>
 #include <catch2/catch_test_spec.hpp>
 #include <catch2/catch_version.hpp>
 #include <catch2/catch_interfaces_reporter.h>
-#include <catch2/catch_random_number_generator.h>
+#include <catch2/internal/catch_random_number_generator.hpp>
 #include <catch2/internal/catch_startup_exception_registry.hpp>
 #include <catch2/internal/catch_text.hpp>
 #include <catch2/internal/catch_stream.hpp>

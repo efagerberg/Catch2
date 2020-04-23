@@ -3,7 +3,7 @@
 #include <catch2/internal/catch_context.hpp>
 #include <catch2/catch_enforce.h>
 #include <catch2/internal/catch_fatal_condition.hpp>
-#include <catch2/catch_random_number_generator.h>
+#include <catch2/internal/catch_random_number_generator.hpp>
 #include <catch2/internal/catch_stream.hpp>
 #include <catch2/catch_timer.hpp>
 #include <catch2/internal/catch_output_redirect.hpp>

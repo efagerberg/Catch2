@@ -70,7 +70,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_interfaces_tag_alias_registry.h
     ${SOURCES_DIR}/catch_interfaces_testcase.h
     ${SOURCES_DIR}/internal/catch_leak_detector.hpp
-    ${SOURCES_DIR}/catch_list.h
+    ${SOURCES_DIR}/internal/catch_list.hpp
     ${SOURCES_DIR}/matchers/catch_matchers.hpp
     ${SOURCES_DIR}/matchers/catch_matchers_container_properties.hpp
     ${SOURCES_DIR}/matchers/catch_matchers_contains.hpp
@@ -80,7 +80,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/matchers/catch_matchers_string.hpp
     ${SOURCES_DIR}/matchers/catch_matchers_templated.hpp
     ${SOURCES_DIR}/matchers/catch_matchers_vector.hpp
-    ${SOURCES_DIR}/catch_message.h
+    ${SOURCES_DIR}/catch_message.hpp
     ${SOURCES_DIR}/internal/catch_meta.hpp
     ${SOURCES_DIR}/catch_objc.hpp
     ${SOURCES_DIR}/catch_objc_arc.hpp
@@ -89,7 +89,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/internal/catch_platform.hpp
     ${SOURCES_DIR}/internal/catch_polyfills.hpp
     ${SOURCES_DIR}/internal/catch_preprocessor.hpp
-    ${SOURCES_DIR}/catch_random_number_generator.h
+    ${SOURCES_DIR}/internal/catch_random_number_generator.hpp
     ${SOURCES_DIR}/catch_reporter_registrars.hpp
     ${SOURCES_DIR}/internal/catch_reporter_registry.hpp
     ${SOURCES_DIR}/internal/catch_result_type.hpp
@@ -151,7 +151,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_interfaces_registry_hub.cpp
     ${SOURCES_DIR}/catch_interfaces_runner.cpp
     ${SOURCES_DIR}/catch_interfaces_testcase.cpp
-    ${SOURCES_DIR}/catch_list.cpp
+    ${SOURCES_DIR}/internal/catch_list.cpp
     ${SOURCES_DIR}/internal/catch_leak_detector.cpp
     ${SOURCES_DIR}/matchers/catch_matchers.cpp
     ${SOURCES_DIR}/matchers/catch_matchers_container_properties.cpp
@@ -165,7 +165,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_registry_hub.cpp
     ${SOURCES_DIR}/catch_interfaces_reporter.cpp
     ${SOURCES_DIR}/internal/catch_polyfills.cpp
-    ${SOURCES_DIR}/catch_random_number_generator.cpp
+    ${SOURCES_DIR}/internal/catch_random_number_generator.cpp
     ${SOURCES_DIR}/internal/catch_reporter_registry.cpp
     ${SOURCES_DIR}/internal/catch_result_type.cpp
     ${SOURCES_DIR}/internal/catch_run_context.cpp
